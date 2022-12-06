@@ -1,0 +1,21 @@
+.clients__list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.clients__link {
+    display: flex;
+    padding: 16px 32px;
+    border: 1px solid $social-icon-color;
+    border-radius: 4px;
+    fill: $social-icon-color;
+    transition: border-color 250ms $timing-control, fill 250ms $timing-control;
+
+    &:hover,
+    &:focus {
+        border-color: $color-primary;
+        outline: none;
+        fill: $color-primary;
+    }
+}

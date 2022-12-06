@@ -1,0 +1,9 @@
+.wrapper {
+    max-width: $content-width;
+    padding-inline: $content-padding;
+    margin: 0 auto;
+}
+
+.wrapper_flex {
+    display: flex;
+}

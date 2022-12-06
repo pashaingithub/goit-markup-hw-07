@@ -1,0 +1,71 @@
+.buttons-list__card-set {
+    margin-bottom: 50px;
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-set__description {
+    margin-block: 0;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    color: $color-white;
+}
+
+.card-set__border {
+    padding: 20px 24px;
+    border: 1px solid #eee;
+    border-top: none;
+}
+
+.card-set__thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-set__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    line-height: calc(36 / 18);
+    color: $color-dark;
+    letter-spacing: 0.06em;
+}
+
+.card-set__text {
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    color: $color-text;
+}
+
+.card-set__link {
+    display: block;
+    transition: box-shadow 250ms $timing-control;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 12%), 0 4px 4px rgb(0 0 0 / 6%),
+            1px 4px 6px rgb(0 0 0 / 16%);
+    }
+
+    &:hover .card-set__overlay,
+    &:focus .card-set__overlay {
+        transform: translateY(-100%);
+    }
+}
+
+.card-set__overlay {
+    position: absolute;
+    width: 370px;
+    min-height: 294px;
+    padding: 63px 24px;
+    background-color: rgb(33 150 243 / 90%);
+    transition: transform 250ms;
+}

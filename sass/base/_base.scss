@@ -1,0 +1,35 @@
+body {
+    font-family: $font-main;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: $font-weight-regular;
+    color: $color-text;
+    letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-block: 0;
+}
+
+ul {
+    padding-inline: 0;
+    margin-block: 0;
+    list-style: none;
+}
+
+li {
+    line-height: 0;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+}
+
+section {
+    padding-block: 94px;
+}

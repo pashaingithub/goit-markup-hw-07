@@ -1,0 +1,14 @@
+.footer {
+    padding-block: 60px;
+    background-color: $color-background-dark;
+}
+
+.footer__wrapper {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.additional-title__social-block,
+.additional-title__form-subscription {
+    margin-top: 20px;
+}

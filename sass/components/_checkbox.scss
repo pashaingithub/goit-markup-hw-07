@@ -1,0 +1,38 @@
+.checkbox {
+    cursor: pointer;
+}
+
+.modal-form__input-checkbox {
+    position: absolute;
+    outline: none;
+
+    /* states */
+    &:checked+.ex-checkbox {
+        background-color: $color-primary;
+        border-color: transparent;
+    }
+
+    &:checked+.ex-checkbox .ex-checkbox__icon-check {
+        fill: $color-white;
+    }
+}
+
+.ex-checkbox {
+    display: inline-flex;
+    align-self: center;
+    width: 16px;
+    height: 15px;
+    margin-right: 7px;
+    background-color: inherit;
+    border: 1.8px $color-dark solid;
+    border-radius: 1.7px;
+    transition: border-color 250ms $timing-control,
+        background-color 250ms $timing-control;
+}
+
+.ex-checkbox__icon-check {
+    align-self: center;
+    margin-inline: auto;
+    fill: transparent;
+    transition: fill 250ms $timing-control 200ms;
+}

@@ -1,0 +1,31 @@
+.social-block__list {
+    display: flex;
+    gap: 10px;
+}
+
+.social-block__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: color 250ms $timing-control,
+        background-color 250ms $timing-control;
+
+    &:hover,
+    &:focus {
+        background-color: $color-primary;
+        outline: none;
+        fill: #fff;
+    }
+}
+
+.social-block__link_theme-blue {
+    fill: $social-icon-color;
+}
+
+.social-block__link_theme-grey {
+    fill: $color-white;
+    background-color: rgb(255 255 255 / 10%);
+}

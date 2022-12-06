@@ -1,0 +1,14 @@
+.header {
+    border-bottom: 1px solid $color-header-border;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    min-height: 80px;
+    margin-right: 91px;
+}

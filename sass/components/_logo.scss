@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__link {
+    display: block;
+    font-family: $font-additional;
+    font-size: 26px;
+    font-weight: $font-weight-bold;
+    line-height: calc(31 / 26);
+    color: $color-primary;
+}
+
+.logo__accent-text {
+    color: $color-dark;
+}
+
+.logo__accent-text_light {
+    color: $color-white;
+}

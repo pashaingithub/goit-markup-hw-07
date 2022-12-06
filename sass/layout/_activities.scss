@@ -1,0 +1,17 @@
+.activities__list {
+    display: flex;
+    gap: 30px;
+}
+
+.activities__item {
+    position: relative;
+}
+
+.activities__thumb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 27px;
+    background-color: rgba(47 48 58 / 80%);
+}

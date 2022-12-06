@@ -1,0 +1,20 @@
+.address-block__item {
+    margin-top: 9px;
+
+    &:first-child {
+        margin-top: 20px;
+    }
+}
+
+.address-block__link {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: $font-weight-regular;
+    line-height: calc(24 / 14);
+    color: $color-footer-text;
+    letter-spacing: 0.03em;
+}
+
+.address-block__link_colored {
+    color: $color-white;
+}

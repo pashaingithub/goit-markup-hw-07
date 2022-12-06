@@ -1,0 +1,23 @@
+.section-title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: $font-weight-bold;
+    line-height: calc(42 / 36);
+    color: $color-dark;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.additional-title {
+    font-size: 14px;
+    font-weight: $font-weight-bold;
+    line-height: calc(16 / 14);
+    color: $color-white;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.activities__caption {
+    @extend .additional-title;
+    text-align: center;
+}
